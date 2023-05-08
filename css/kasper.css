@@ -487,6 +487,12 @@ header nav .form i {
   transform: translateY(-50%);
   text-align: center;
 }
+@media (max-width: 767px){
+  .video .text {
+    background-color:rgb(16 115 142 / 16%);
+    padding: 32px;
+  }
+}
 .video .text h2 {
   font-weight: normal;
   text-transform: uppercase;
